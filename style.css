@@ -79,6 +79,8 @@ img {
 }
 
 @media screen and (max-width: 420px){
+  
+
   .row{
    width: 100%;
   }
@@ -88,7 +90,7 @@ img {
     width: 100%;
     float: none;
     background-color: aquamarine;
-    /* display: block; */
+
   }
 
   #why .row>.first,
@@ -96,18 +98,17 @@ img {
   #why .row>.third{
     margin-top: 0;
     background-color: aquamarine;
+    width:100%;
 
   }
 
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right{
-    /* display: block; */
     width:100%;
   }
 
   img{
-    height: 25%;
     width: 50%;
   }
 
